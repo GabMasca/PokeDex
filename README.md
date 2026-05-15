@@ -36,15 +36,30 @@ Este projeto foi desenvolvido para demonstrar:
 - Estilização moderna com CSS
 - Interatividade com JavaScript puro
 
-## Estrutura de Pastas
 
-```bash
-project-root/
-│
-├── index.html
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
-└── assets/
-    └── pokeball.png
+Como Executar
+
+Clone este repositório:
+
+git clone https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git
+
+Abra a pasta do projeto.
+
+Execute o arquivo index.html em seu navegador.
+
+API Utilizada
+PokéAPI: https://pokeapi.co/
+
+Diferenciais
+Interface inspirada em Pokédex moderna
+Experiência visual aprimorada
+Dashboard estatístico
+Filtros avançados
+
+
+Código organizado para fins acadêmicos e profissionais
+
+
+Autor
+
+Gabriel Mascarenhas
