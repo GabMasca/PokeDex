@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokéDex Dinâmica - UniFECAF</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="pokedex-loading">
+        <div class="pokedex-logo">
+            <img src="assets/pokeball.png" alt="Pokébola carregando" class="pokeball-img">
+            <h2>CARREGANDO POKÉDEX...</h2>
+        </div>
+    </div>
+
+    <header>
+        <h1>PokéDex</h1>
+
+        <nav class="search-nav">
+            <input
+                type="text"
+                id="search-input"
+                placeholder="Pesquisar Pokémon por nome ou número..."
+            >
+
+            <select id="type-filter">
+                <option value="all">Todos os tipos</option>
+                <option value="normal">Normal</option>
+                <option value="fire">Fogo</option>
+                <option value="water">Água</option>
+                <option value="grass">Planta</option>
+                <option value="electric">Elétrico</option>
+                <option value="ice">Gelo</option>
+                <option value="fighting">Lutador</option>
+                <option value="poison">Veneno</option>
+                <option value="ground">Terra</option>
+                <option value="flying">Voador</option>
+                <option value="psychic">Psíquico</option>
+                <option value="bug">Inseto</option>
+                <option value="rock">Pedra</option>
+                <option value="ghost">Fantasma</option>
+                <option value="dragon">Dragão</option>
+                <option value="dark">Sombrio</option>
+                <option value="steel">Aço</option>
+                <option value="fairy">Fada</option>
+            </select>
+        </nav>
+    </header>
+
+    <main id="pokemon-container" class="container"></main>
+
+    <div id="pokemon-modal" class="modal hidden">
+        <div class="modal-content">
+            <span id="close-modal" role="button" aria-label="Fechar modal">&times;</span>
+            <div id="modal-body"></div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
